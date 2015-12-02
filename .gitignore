@@ -1,14 +1,8 @@
-*.tar
-*.tar.*
-*.zip
-*.tgz
-*.log
-*.log.*
-*.sig
+# Object file
+*.o
 
-# AUR metadata
-.AURINFO
-.SRCINFO
+# .history files
+*.history
 
-pkg/
-src/
+# MATLAB temp files
+*.m~
