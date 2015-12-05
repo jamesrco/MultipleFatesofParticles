@@ -1,4 +1,4 @@
-# SinkingParticles_GBC2015
+# MultipleFatesofParticles
 Contains code and (some) data for:
 
 [Collins, J. R., B. R. Edwards, K. Thamatrakoln, J. E. Ossolinski, G. R. DiTullio, K. D. Bidle, S. C. Doney, and B. A. S. Van Mooy. 2015. The multiple fates of sinking particles in the North Atlantic Ocean. Global Biogeochem. Cycles 29: 1471-1494, doi:10.1002/2014GB005037.](http://dx.doi.org/10.1002/2014GB005037)
