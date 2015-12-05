@@ -1,5 +1,5 @@
 # SinkingParticles_GBC2015
-Code and data files for the paper:
+Contains code and (some) data for:
 
 [Collins, J. R., B. R. Edwards, K. Thamatrakoln, J. E. Ossolinski, G. R. DiTullio, K. D. Bidle, S. C. Doney, and B. A. S. Van Mooy. 2015. The multiple fates of sinking particles in the North Atlantic Ocean. Global Biogeochem. Cycles 29: 1471-1494, doi:10.1002/2014GB005037.](http://dx.doi.org/10.1002/2014GB005037)
 
@@ -7,7 +7,9 @@ The supporting data files for these scripts (in [SinkingParticles_GBC2015/data](
 
 The repo [3H_Leu_BactProd](https://github.com/jamesrco/3H_Leu_BactProd) contains all code for analysis of the bacterial production data.
 
-*Caveat:* Unlike code in my other repos, the scripts provided here aren't spiffed up for easy portability. Brief descriptions of what's here:
+**Caveat:** Unlike the code I currently have in other repos, the scripts here aren't spiffed up for easy portability. User beware!
+
+Brief descriptions of what's here:
 
 1. [respflux2012_v3.m](https://github.com/jamesrco/SinkingParticles_GBC2015/blob/master/respflux2012_v3.m): MATLAB script used for the sensitivity analyses of the particle flux model attenuation described in the paper. Data inputs for each cruise process station are specified separately, then a common block of code is run. Produces the plots in Fig. 5 of the paper.
    * This script requires quite a few of the data files in [SinkingParticles_GBC2015/data](https://github.com/jamesrco/SinkingParticles_GBC2015/tree/master/data), which are described below, in addition to [Shipcast_metadata_KN207-1.xlsx](https://github.com/jamesrco/3H_Leu_BactProd/blob/master/sample_data_metadata/Shipcast_metadata_KN207-1.xlsx) and [Shipcast_metadata_KN207-3.xlsx](https://github.com/jamesrco/3H_Leu_BactProd/blob/master/sample_data_metadata/Shipcast_metadata_KN207-3.xlsx)
