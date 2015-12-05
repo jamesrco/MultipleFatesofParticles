@@ -4,17 +4,17 @@
 % *** Improves on the method used to calculate depth-integrated BP and resp
 % in respflux2012_v3.m ***'
 
-% This script uses a bootstrap Monte Carlo approach to estimate
+% This script applies a bootstrap Monte Carlo approach to estimate
 % depth-integrated rates of water col. respiration and bacterial
 % production, using volumetric rate data for each of those parameters
 % obtained at each process station during the KN207-1 and KN207-3 cruises.
 
-% The depth-integrated figures are estimated using a range of values for
+% The depth-integrated rate estimates are calculated using a range of values for
 % both isotope dilution and the C:leu conversion factor
 
 % Because data are sparse between 50 and 150 m (the range over which we
 % want to integrate for Collins et al, 2015, GBC), we will create a series
-% on = numsims simulated data sets for each station and parameter, assuming
+% of simulated data sets for each station and parameter, assuming
 % the values are drawn from normal distributions with sigmas as calculated
 % from replication. We will then use those individual data sets to generate
 % n = numsims unique power-law curve fits. We will numerically integrate these
@@ -75,7 +75,7 @@ ID_simdist = 1 + (2-1).*rand(numsims,1);
 % assembled from literature by Giering et al 2014, Nature (Extended Data
 % Fig 4)
 
-% for this analysis, we'll have to truncate simulated values at ± 1.5 SD since we
+% for this analysis, we'll have to truncate simulated values at Â± 1.5 SD since we
 % can't have a CF < 0
 
 v_kgC_mol_leu = 0.44;
