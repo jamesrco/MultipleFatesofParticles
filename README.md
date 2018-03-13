@@ -3,6 +3,10 @@ Contains code and (some) data for:
 
 [Collins, J. R., B. R. Edwards, K. Thamatrakoln, J. E. Ossolinski, G. R. DiTullio, K. D. Bidle, S. C. Doney, and B. A. S. Van Mooy. 2015. The multiple fates of sinking particles in the North Atlantic Ocean. Global Biogeochem. Cycles 29: 1471-1494, doi:10.1002/2014GB005037.](http://dx.doi.org/10.1002/2014GB005037)
 
+and 
+
+[Laber. C. P., J. E. Hunter, F. Carvalho, E. J. Hunter, B. M. Schieler, E. Boss, K. More, M. Frada, K. Thamatrakoln, C. M. Brown, L. Haramaty, J. E. Ossolinski, H. F. Fredricks, J. I. Nissimov, R. Vandzura, U. Sheyn, Y. Lehahn, R. J. Chant, A. M. Martins, M. J. L. Coolen, A. Vardi, G. R. DiTullio, B. A. S. Van Mooy, and K. D. Bidle. 2018. Coccolithovirus facilitation of carbon export in the North Atlantic. Nature Microbiology, doi:10.1038/s41564-018-0128-4.](https://doi.org/10.1038/s41564-018-0128-4)
+
 The supporting data files for these scripts (in [SinkingParticles_GBC2015/data](https://github.com/jamesrco/SinkingParticles_GBC2015/tree/master/data)) contain data from the two cruises in various, somewhat disorganized formats. Final data from the cruises, with appropriate metadata, are archived to: http://www.bco-dmo.org/deployment/58787 (KN207-1 cruise data) and http://www.bco-dmo.org/project/2136 (KN207-3 cruise data)
 
 The repo [3H_Leu_BactProd](https://github.com/jamesrco/3H_Leu_BactProd) contains all code for analysis of the bacterial production data.
